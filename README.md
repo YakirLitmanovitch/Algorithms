@@ -116,6 +116,8 @@ DFS starting from vertex 0
 ...
 
 Dijkstra's algorithm starting from vertex 0:
+![Adding Edges](images/addingEdges.png)
+
 ([images/DijkstraPros.png](https://github.com/YakirLitmanovitch/Algorithms/blob/884253f462f697703ac9b97ec7fa29e761e2068b/images/DijkstraPros.png))!
 [images/DijkstraPros.png](https://github.com/YakirLitmanovitch/Algorithms/blob/884253f462f697703ac9b97ec7fa29e761e2068b/images/DijkstraPros.png)!
 ![images/DijkstraPros.png](https://github.com/YakirLitmanovitch/Algorithms/blob/884253f462f697703ac9b97ec7fa29e761e2068b/images/DijkstraPros.png)
