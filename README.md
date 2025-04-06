@@ -105,27 +105,27 @@ The graph after the edges adding:
 ...
 
 BFS starting from vertex 0
-(images/bfsOp1.png)
-(images/bfsOp2.png)
-(images/bfsTree.png)
+![](images/bfsOp1.png)
+![](images/bfsOp2.png)
+![](images/bfsTree.png)
 
 ...
 
 DFS starting from vertex 0
-(images/dfs.png)
+![](images/dfs.png)
 ...
 
 Dijkstra's algorithm starting from vertex 0:
-(images/DijkstraPros.png)
-(images/DijkstraTree.png)
+![](images/DijkstraPros.png)
+![](images/DijkstraTree.png)
 ...
 
 Prim's algorithm starting
-(images/primMST.png)
+![](images/primMST.png)
 ...
 
 Kruskal's algorithm starting
-(images/kruskalMST.png)
+![](images/kruskalMST.png)
 ...
 ```
 
