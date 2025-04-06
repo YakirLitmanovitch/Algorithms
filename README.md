@@ -114,20 +114,26 @@ BFS starting from vertex 0
 DFS starting from vertex 0
 ![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/dfs.png)
 
+
 ...
 
 Dijkstra's algorithm starting from vertex 0:
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/DijkstraPros.png)
+
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/DijkstraTree.png)
+
 ...
 
 Prim's algorithm starting
+
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/primMST.png)
 
 ...
 
 Kruskal's algorithm starting
+
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/kruskalMST.png)
+
 ...
 
 
