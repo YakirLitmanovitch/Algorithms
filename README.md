@@ -99,35 +99,37 @@ The Makefile automates the build process and provides the following targets:
 
 ## Example Output
 Here is an example of the program's output:
-```
-The graph after the edges adding:
-(images/addingEdges.png)[Adding Edges]!
 ...
+The graph after the edges adding:
+![Adding edges](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/addingEdges.png)
 
+...
 BFS starting from vertex 0
-![](Algorithms/images/bfsOp1.png)
-![](images/bfsOp2.png)
-![](images/bfsTree.png)
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsOp1.png)
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsOp2.png)
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsTree.png)
 
 ...
 
 DFS starting from vertex 0
-![](images/dfs.png)
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/dfs.png)
+
 ...
 
 Dijkstra's algorithm starting from vertex 0:
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/DijkstraPros.png)
-![](images/DijkstraTree.png)
+![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/DijkstraTree.png)
 ...
 
 Prim's algorithm starting
-![](images/primMST.png)
+![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/primMST.png)
+
 ...
 
 Kruskal's algorithm starting
-![](images/kruskalMST.png)
+![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/kruskalMST.png)
 ...
-```
+
 
 ## Memory Management
 The project uses dynamic memory allocation for graph representation and algorithm data structures. All dynamically allocated memory is properly freed, as verified by `valgrind`:
