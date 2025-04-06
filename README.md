@@ -101,7 +101,7 @@ The Makefile automates the build process and provides the following targets:
 Here is an example of the program's output:
 ```
 The graph after the edges adding:
-![Adding Edges](images/addingEdges.png)
+(images/addingEdges.png)[Adding Edges]!
 ...
 
 BFS starting from vertex 0
