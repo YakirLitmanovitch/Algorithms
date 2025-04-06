@@ -100,37 +100,39 @@ The Makefile automates the build process and provides the following targets:
 ## Example Output
 Here is an example of the program's output:
 ...
-The graph after the edges adding:
+### The graph after the edges adding:
+
 ![Adding edges](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/addingEdges.png)
 
 ...
-BFS starting from vertex 0
+### BFS starting from vertex 0
 ![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsOp1.png)
 ![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsOp2.png)
 ![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsTree.png)
 
 ...
 
-DFS starting from vertex 0
-![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/dfs.png)
+### DFS starting from vertex 0
 
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/dfs.png)
 
 ...
 
-Dijkstra's algorithm starting from vertex 0:
+### Dijkstra's algorithm starting from vertex 0:
+
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/DijkstraPros.png)
 
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/DijkstraTree.png)
 
 ...
 
-Prim's algorithm starting
+### Prim's algorithm starting
 
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/primMST.png)
 
 ...
 
-Kruskal's algorithm starting
+### Kruskal's algorithm starting
 
 ![Dijkstra Pros](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/kruskalMST.png)
 
