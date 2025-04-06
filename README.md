@@ -105,7 +105,7 @@ The graph after the edges adding:
 ...
 
 BFS starting from vertex 0
-![](images/bfsOp1.png)
+![](Algorithms/images/bfsOp1.png)
 ![](images/bfsOp2.png)
 ![](images/bfsTree.png)
 
