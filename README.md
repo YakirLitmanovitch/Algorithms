@@ -106,9 +106,8 @@ Here is an example of the program's output:
 
 ...
 ### BFS starting from vertex 0
-![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsOp1.png)
-![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsOp2.png)
-![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfsTree.png)
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfs1.png)
+![Bfs process](https://github.com/YakirLitmanovitch/Algorithms/blob/main/images/bfs2.png)
 
 ...
 
