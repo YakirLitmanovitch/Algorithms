@@ -70,6 +70,35 @@ The Makefile automates the build process and provides the following targets:
 - `valgrind`: Runs the project with `valgrind` to check for memory leaks.
 - `clean`: Removes all build artifacts.
 
+## Testing
+
+Unit tests are used to ensure the correctness of the implemented graph algorithms. The project uses a simple testing framework to verify the functionality of each algorithm.
+
+### Running Tests
+
+To run the tests, follow these steps:
+
+1. **Build the Project with Tests**:
+    ```bash
+    make test
+    ```
+
+2. **Execute the Tests**:
+    ```bash
+    ./test
+    ```
+
+### Test Coverage
+
+The tests cover various aspects of the graph algorithms, including:
+
+- **Breadth-First Search (BFS)**: Verification of correct graph traversal.
+- **Depth-First Search (DFS)**: Verification of correct graph traversal.
+- **Dijkstra's Algorithm**: Verification of shortest path calculations.
+- **Prim's Algorithm**: Verification of minimum spanning tree construction.
+- **Kruskal's Algorithm**: Verification of minimum spanning tree construction.
+
+
 ## How to Build and Run
 1. **Clone the Repository**:
    ```bash
