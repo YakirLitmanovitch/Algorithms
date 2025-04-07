@@ -1,3 +1,4 @@
+// Mail : yakirli45@gmail.com
 #include <iostream>
 #include "Graph.hpp"
 #include "Algorithms.hpp"
@@ -5,10 +6,10 @@
 int main() {
     using namespace graph;
 
-    // יצירת גרף עם 5 קודקודים
+    // Create a graph with 10 vertices
     Graph g(10);
 
-    // הוספת צלעות
+    // Add edges to the graph
     g.addEdge(0, 1, 5);
     g.addEdge(1, 2);
     g.addEdge(1, 3, 3);
@@ -26,16 +27,6 @@ int main() {
     std::cout << "The graph after the edges adding:" << std::endl;
     g.printGraph();
 
-    // // מחיקת צלע קיימת
-    // std::cout << "\n Delete the edge - (1-2)..." << std::endl;
-    // g.removeEdge(1, 2);
-    // g.printGraph();
-
-    // // מחיקת צלע שאינה קיימת
-    // std::cout << "\n Delete unexist edge" << std::endl;
-    // g.removeEdge(3, 4);
-    // g.printGraph();
-    
     graph::Graph bfsTree = graph::Algorithms::bfs(g, 0);
     bfsTree.printGraph();
 

@@ -1,3 +1,4 @@
+// Mail : yakirli45@gmail.com
 #include "MinHeap.hpp"
 #include <climits>
 #include <stdexcept>
@@ -51,6 +52,7 @@ namespace graph {
         }
     }
 
+    // Maintain the heap property by moving the node at index down
     void MinHeap::heapifyDown(int index) {
         int smallest = index;
         int left = 2 * index + 1;
@@ -70,6 +72,7 @@ namespace graph {
         }
     }
 
+    // Extract the minimum node from the heap
     HeapNode MinHeap::extractMin() {
         if (isEmpty()) throw std::runtime_error("Heap is empty");
 
@@ -81,12 +84,14 @@ namespace graph {
         return root;
     }
 
+    // Decrease the key of a vertex in the heap
     void MinHeap::decreaseKey(int vertex, int newDistance) {
         int i = positions[vertex];
         heapArray[i].distance = newDistance;
         heapifyUp(i);
     }
 
+    // Check if the heap contains a vertex
     bool MinHeap::contains(int vertex) const {
         return positions[vertex] != -1 && positions[vertex] < size;
     }

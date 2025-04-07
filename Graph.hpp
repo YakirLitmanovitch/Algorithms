@@ -1,8 +1,16 @@
+// Mail : yakirli45@gmail.com
 #ifndef GRAPH_H
 #define GRAPH_H
 #include <iostream>
 
 namespace graph {
+    /**
+     * @brief Class representing a graph using an adjacency list.
+     * 
+     * This class provides methods to add edges, remove edges, check for edge existence,
+     * and retrieve neighbors of a vertex. It also allows printing the graph and checking
+     * the number of vertices.
+     */
     class Graph {
     private:
         int Vertices;

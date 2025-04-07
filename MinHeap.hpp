@@ -1,8 +1,13 @@
+// Mail : yakirli45@gmail.com
 #ifndef MINHEAP_HPP
 #define MINHEAP_HPP
 
 namespace graph {
-
+    /**
+     * @brief A structure representing a node in the min-heap.
+     * 
+     * This structure contains the vertex ID and its distance from the source vertex.
+     */
     struct HeapNode {
         int vertex;
         int distance;

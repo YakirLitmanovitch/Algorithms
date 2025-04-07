@@ -1,7 +1,10 @@
+# Mail : yakirli45@gmail.com
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Wextra -g
-OBJS = main.o Graph.o Algorithms.o MinHeap.o UnionFind.o
+OBJS =main.o Graph.o Algorithms.o MinHeap.o UnionFind.o
 TARGET = graph_program
+TEST_TARGET = test_program
+TEST_SRC = test.cpp
 
 all: $(TARGET)
 
@@ -22,11 +25,17 @@ MinHeap.o: MinHeap.cpp MinHeap.hpp
 
 UnionFind.o: UnionFind.cpp UnionFind.hpp
 	$(CXX) $(CXXFLAGS) -c UnionFind.cpp
+
 Main: all
 	./$(TARGET)
+
 
 valgrind: all
 	valgrind --leak-check=full --track-origins=yes ./$(TARGET)
 
+test: $(TEST_SRC) Graph.o Algorithms.o MinHeap.o UnionFind.o
+	$(CXX) $(CXXFLAGS) -o $(TEST_TARGET) $(TEST_SRC) Graph.o Algorithms.o MinHeap.o UnionFind.o
+	./$(TEST_TARGET)
+
 clean:
-	rm -f $(TARGET) $(OBJS)
+	rm -f $(TARGET) $(TEST_TARGET) $(OBJS)
